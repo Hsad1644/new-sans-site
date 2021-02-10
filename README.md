@@ -5,7 +5,7 @@ I'm leraning web development from Rob Percival's Udemy course.
 
 I want to end up being able to use this project site to display my learnings to my colleagues who are attending this course along with me.
 
-## p5.js library sources -
+## p5.js Library Sources
 
   **core** - ```<script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>```
 		
