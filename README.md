@@ -1,6 +1,8 @@
 # new-sans-site
 my first developmental stage website
+
 I'm leraning web development from Rob Percival's Udemy course.
+
 I want to end up being able to use this project site to display my learnings to my colleagues who are attending this course along with me.
 
 ## p5.js library sources -
