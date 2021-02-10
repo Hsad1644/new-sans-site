@@ -1,0 +1,53 @@
+<html>
+
+    <head>
+
+        <title> Trying JS! </title>
+
+    </head>
+
+    <body>
+
+        <p id="text">Hello World!</p>
+        <button id="changeButton">Click</button>
+        
+        <p id="prompt">JS is ... </p>
+        <button id="changePrompt">Click to append</button>
+
+        <p id="hidden"></p>
+        <button id="magic">MAGIC!</button>
+
+        <p id="moreText">Some boring text</p>
+        <button id="styleStuff">Style dat</button>
+
+        <script type="text/javascript">
+
+            //add or remove text on click
+            document.getElementById("changePrompt").onclick = function () {
+
+                document.getElementById("prompt").innerHTML = "Mostly, " + document.getElementById("prompt").innerHTML;
+                document.getElementById("prompt").append("AWESOME!"); 
+
+            }
+            
+            //show stuff upon click
+            document.getElementById("magic").onclick = function() {
+
+                document.getElementById("hidden").innerHTML = "<h2>BOO! Howdy!</h2>";
+            }
+            
+            //style the innerHTML upon click
+            document.getElementById("styleStuff").onclick = function() {
+
+                document.getElementById("moreText").innerHTML = "The \"Boring\" text is now <em>STYLED</em>";
+                document.getElementById("moreText").style.color = "#037ffc";
+                document.getElementById("moreText").style.fontWeight = "bold";
+                document.getElementById("moreText").style.fontFamily = "Helvetica";
+
+            }
+            
+        </script>
+
+    </body>
+
+</html>

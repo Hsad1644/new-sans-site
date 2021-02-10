@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Using Variables</title>
+    </head>
+
+    <body>
+
+        <button id="refresh">Refresh!</button>
+
+        <div style="margin:15px">
+
+            <input type="text" id="entry">
+            <button id="changeText">Change the text</button>
+            <p id="texts">This is some boring text</p>
+            
+        </div>
+
+        <script type="text/javascript">
+
+            //refresh button
+            document.getElementById("refresh").onclick = function() {
+                location.reload();
+            }
+
+            //para detail change button (receives from entry)
+            document.getElementById("changeText").onclick = function() {
+
+                var textEntered = "";
+                textEntered = document.getElementById("entry").value;
+
+                document.getElementById("texts").innerHTML = textEntered;
+
+                console.log("Text changed!");
+            }
+        
+        </script>
+    </body>
+
+</html>

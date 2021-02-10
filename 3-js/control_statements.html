@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Using Control Statements!</title>
+    </head>
+
+    <body>
+
+        <div style="margin:15px">
+
+            <input type="text" id="inputs" value="Enter your guess here!">
+            <p><button id="refresh">Play again! / Different Number</button></p>
+            <p style="font-size: small;font-family: monospace;">Open the console to check how you're doing</p>
+
+        </div>
+
+
+        <script type="text/javascript">            
+
+            //refresh button
+            document.getElementById("refresh").onclick = function() {
+                location.reload();
+            }
+
+            var tweets = [1, 2, 3, 4];
+
+            for (var i = 0; i < tweets.length; i++){
+                console.log(tweets[i]);
+            }
+
+            // document.getElementById("inputs").addEventListener('keyup', function(event) {
+
+            //     if (event.code === "Enter") {
+
+            //         event.preventDefault();
+            //         var x = Math.floor(Math.random()*100 + 1);
+
+            //         var inputNum = document.getElementById("inputs").value;
+
+            //         if (inputNum == x){
+            //             console.log("Good Guess!!\nRefresh or click that button to play again");
+            //         } else {
+            //             if (inputNum > x)
+            //                 console.log("Too high");
+            //             else
+            //                 console.log("Too low");
+            //             console.log("Try again :(");
+            //         }
+
+            //     }
+
+            // });
+
+            
+        
+        </script>
+    </body>
+
+</html>

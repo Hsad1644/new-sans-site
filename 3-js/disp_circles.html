@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <style type="text/css">
+
+            .circle {
+                width: 100px;
+                height: 100px;
+                margin: 15px;
+                border-radius: 50%;
+                background-color: firebrick;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <button id="refresh">Refresh!</button>
+        <div class="circle" id="red-circle"></div>
+        <button id="magic">Do stuff</button>
+
+        <script type="text/javascript">
+
+            document.getElementById("refresh").onclick = function() {
+                location.reload();
+            }
+
+            document.getElementById("magic").onclick = function() {
+                console.log("Circle removed!")
+                document.getElementById("red-circle").style.display = "none";
+            }
+        
+        </script>
+
+    </body>
+
+</html>
