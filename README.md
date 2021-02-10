@@ -3,7 +3,7 @@ my first developmental stage website
 I'm leraning web development from Rob Percival's Udemy course.
 I want to end up being able to use this project site to display my learnings to my colleagues who are attending this course along with me.
 
-#H2 p5.js library sources -
+##p5.js library sources -
 
   **core** - ```html
   		<script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>```
