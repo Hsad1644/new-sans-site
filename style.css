@@ -12,6 +12,24 @@ body {
     /* margin: -500px; */
     margin-top: -400px;
 }
+.top-row {
+    z-index: 30;
+    float: right;
+}
+
+nav {
+    border-bottom: 2px solid grey ;
+    display: inline-block;
+    /* position: absolute; */
+}
+
+.links {
+    list-style-type: none;
+    display:inline-block;
+    width: 50px;
+    /* position: fixed; */
+}
+
 
 #headder {
     /* display: none; */
@@ -35,22 +53,5 @@ body {
     font-weight: 100;
     width: 550px;
     line-height: 20px;
-}
-
-.top-row {
-    z-index: 100;
-    color: white;
-    float: right;
-}
-
-nav {
-    border-bottom: 2px solid grey ;
-    display: inline-block;
-}
-
-.links {
-    list-style-type: none;
-    display:inline-block;
-    /* position: fixed; */
 }
 
