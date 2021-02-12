@@ -36,3 +36,21 @@ body {
     width: 550px;
     line-height: 20px;
 }
+
+.top-row {
+    z-index: 100;
+    color: white;
+    float: right;
+}
+
+nav {
+    border-bottom: 2px solid grey ;
+    display: inline-block;
+}
+
+.links {
+    list-style-type: none;
+    display:inline-block;
+    /* position: fixed; */
+}
+
