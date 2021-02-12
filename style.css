@@ -2,14 +2,12 @@ body {
     background-color: black;
     color: white;
     font-family: 'Archivo', sans-serif; 
-    /* height: 500px; */
 }
 
 #sketch-file {
     position: fixed;
     z-index: 10;
     float: left;
-    /* margin: -500px; */
     margin-top: -400px;
 }
 .top-row {
@@ -20,19 +18,16 @@ body {
 nav {
     border-bottom: 2px solid grey ;
     display: inline-block;
-    /* position: absolute; */
 }
 
 .links {
     list-style-type: none;
     display:inline-block;
     width: 50px;
-    /* position: fixed; */
 }
 
 
 #headder {
-    /* display: none; */
     margin-top: 130px;
     margin-left: 70px;
     position: relative;
