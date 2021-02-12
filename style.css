@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Archivo', sans-serif; 
+    /* height: 500px; */
+}
+
+#sketch-file {
+    position: fixed;
+    z-index: 10;
+    float: left;
+    /* margin: -500px; */
+    margin-top: -400px;
+}
+
+#headder {
+    /* display: none; */
+    margin-top: 130px;
+    margin-left: 70px;
+    position: relative;
+    z-index: 20;
+    width: 800px;
+    background-color: transparent;
+}
+
+#titles {
+    font-size: 550%;
+    width: 380px;
+}
+
+#desc {
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 20px;
+    font-weight: 100;
+    width: 550px;
+    line-height: 20px;
+}
