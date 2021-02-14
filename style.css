@@ -18,7 +18,8 @@ body {
 nav {
     border-bottom: 2px solid grey ;
     display: inline-block;
-    /* position: absolute; */
+    /* position: fixed; */
+    /* float: left; */
 }
 
 .links {
