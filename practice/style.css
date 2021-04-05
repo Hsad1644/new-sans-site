@@ -56,3 +56,13 @@ nav {
     line-height: 20px;
 }
 
+.cards-row{
+    top: 250px;
+    width: 10000px;
+}
+
+.cards-row>*{
+    float: left;
+    padding: 8px;
+}
+
